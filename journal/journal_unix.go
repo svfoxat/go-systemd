@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !windows
+//go:build !windows && !js
 
 // Package journal provides write bindings to the local systemd journal.
 // It is implemented in pure Go and connects to the journal directly over its
